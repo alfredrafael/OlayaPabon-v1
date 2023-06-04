@@ -6,9 +6,7 @@ function App() {
   return (
     <div id="app">
       <header class="header">
-        <div class="logo">
-          <h3>OlayaPabon v0.1</h3>
-        </div>
+        <h3>OlayaPabon v0.1</h3>
       </header>
       <main>
         <FetchJSONFromURL />
