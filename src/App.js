@@ -27,6 +27,13 @@ function App() {
         </span>
       </header>
       <main>
+        <p
+          className="mobile-disclaimer"
+          style={{ textAlign: "center", marginBottom: "2em", color: "red" }}
+        >
+          Por favor, usa desktop porque este App no está optimizado para
+          móbiles. Es super MVP
+        </p>
         <FetchJSONFromURL />
         <JSONToCSVConverter />
       </main>

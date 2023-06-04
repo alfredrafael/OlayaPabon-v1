@@ -16,6 +16,10 @@
   display: flex;
 }
 
+.mobile-disclaimer {
+  display: none;
+}
+
 main {
   padding: 2em;
 }
@@ -47,6 +51,9 @@ textarea {
   }
   .header h3 {
     font-size: 70%;
+  }
+  .mobile-disclaimer {
+    display: block;
   }
   #JSONToCSVConverter button {
     width: 97%;
