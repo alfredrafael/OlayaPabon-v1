@@ -4,10 +4,22 @@
   height: 50px;
   box-shadow: 10px 10px 15px #cbced1, -10px -10px 20px white;
   padding: 0 2em;
+  justify-content: space-between;
 }
+
+.header a {
+  text-decoration: none;
+  margin: 0 1em;
+}
+
+.header span {
+  display: flex;
+}
+
 main {
   padding: 2em;
 }
+
 input#url {
   width: 20%;
   margin-right: 1.5em;
@@ -27,4 +39,27 @@ input#url {
 
 textarea {
   margin-bottom: 0.5em;
+}
+
+@media (max-width: 900px) {
+  .header {
+    width: 100vw;
+  }
+  .header h3 {
+    font-size: 70%;
+  }
+  #JSONToCSVConverter button {
+    width: 97%;
+  }
+
+  #FetchJSONFromURL button {
+    max-width: 80%;
+  }
+  .displayed-json {
+    min-width: 100% !important;
+  }
+
+  input#url {
+    width: 60%;
+  }
 }

@@ -52,6 +52,7 @@ function FetchJSONFromURL() {
       ) : (
         data && (
           <div
+            class="displayed-json"
             style={{
               display: "flex",
               flexDirection: "column",
