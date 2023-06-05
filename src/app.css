@@ -67,7 +67,7 @@ textarea.json-output {
     max-width: 80%;
   }
   .displayed-json {
-    min-width: 100% !important;
+    min-width: 92% !important;
   }
   input#url {
     width: 50%;
