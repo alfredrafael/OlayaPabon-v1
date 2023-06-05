@@ -46,7 +46,7 @@ textarea {
 }
 
 textarea.json-output {
-  min-width: 105% !important;
+  width: 420px !important;
 }
 
 @media (max-width: 900px) {
@@ -73,7 +73,7 @@ textarea.json-output {
     width: 50%;
   }
   textarea.json-output {
-    max-width: 95%;
+    min-width: 105%;
   }
   .clearAllBtn {
     margin-left: 0 !important;
