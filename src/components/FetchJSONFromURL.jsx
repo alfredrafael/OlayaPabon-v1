@@ -64,7 +64,7 @@ function FetchJSONFromURL() {
               cols={50}
               value={JSON.stringify(data, null, 2)}
               readOnly
-              style={{ minWidth: "105%" }}
+              class="json-output"
             />
             <button onClick={handleCopyClick}>Copy JSON to clipboard</button>
           </div>

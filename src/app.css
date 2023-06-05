@@ -45,9 +45,13 @@ textarea {
   margin-bottom: 0.5em;
 }
 
+textarea.json-output {
+  max-width: 75%;
+}
+
 @media (max-width: 900px) {
   .header {
-    width: 100vw;
+    max-width: 100vw;
   }
   .header h3 {
     font-size: 70%;
@@ -65,8 +69,10 @@ textarea {
   .displayed-json {
     min-width: 100% !important;
   }
-
   input#url {
     width: 50%;
+  }
+  textarea.json-output {
+    max-width: 95%;
   }
 }
