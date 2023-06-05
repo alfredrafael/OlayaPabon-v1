@@ -75,4 +75,7 @@ textarea.json-output {
   textarea.json-output {
     max-width: 95%;
   }
+  .clearAllBtn {
+    margin-left: 0 !important;
+  }
 }

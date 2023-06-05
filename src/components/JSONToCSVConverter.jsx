@@ -72,7 +72,11 @@ function JSONToCSVConverter() {
 
       <div style={{ display: "block" }}>
         <button onClick={handleCopyClick}>Copy CSV data to Clipboard</button>
-        <button onClick={handleReloadForClear} style={{ marginLeft: "1em" }}>
+        <button
+          onClick={handleReloadForClear}
+          style={{ marginLeft: "1em" }}
+          className="clearAllBtn"
+        >
           Clear all fields
         </button>
       </div>
