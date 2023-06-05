@@ -46,7 +46,7 @@ textarea {
 }
 
 textarea.json-output {
-  max-width: 75%;
+  max-width: 100%;
 }
 
 @media (max-width: 900px) {
