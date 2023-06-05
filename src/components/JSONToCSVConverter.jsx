@@ -44,6 +44,10 @@ function JSONToCSVConverter() {
     }
   };
 
+  const handleReloadForClear = () => {
+    window.location.reload(); // Refresh the page
+  };
+
   return (
     <div id="JSONToCSVConverter">
       <textarea
@@ -66,9 +70,12 @@ function JSONToCSVConverter() {
         cols={50}
       />
 
-      <button style={{ display: "block" }} onClick={handleCopyClick}>
-        Copy CSV data to Clipboard
-      </button>
+      <div style={{ display: "block" }}>
+        <button onClick={handleCopyClick}>Copy CSV data to Clipboard</button>
+        <button onClick={handleReloadForClear} style={{ marginLeft: "2.5em" }}>
+          Clear all fields
+        </button>
+      </div>
     </div>
   );
 }
